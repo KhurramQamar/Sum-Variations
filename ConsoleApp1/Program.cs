@@ -14,11 +14,11 @@ namespace ConsoleApp1
             Console.WriteLine($"the sum of assigned integers {a} and {b} is: {a+b}");
            
         }
-        static void Sum(int a)
+        static void Sum(int num1)
         {
             
-            int sum = a + a;
-            Console.WriteLine($"the sum of itself {a} is: {sum}");
+            int sum = num1 + num1;
+            Console.WriteLine($"the sum of itself {num1} is: {sum}");
         }
         static void  Sum(int a,int b)
         {
