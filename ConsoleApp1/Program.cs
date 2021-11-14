@@ -32,19 +32,6 @@ namespace ConsoleApp1
         {
             Console.WriteLine($"the sum of two double numbers  is: {a + b}");
         }
-        static void Sum(string  a, string  b)
-        {
-            Console.WriteLine($"the sum of two string is: {a + b}");
-        }
-
-        static void Main(string[] args)
-
-        {
-            Sum();
-            Sum(2);
-            Sum(2, 2);
-            Sum(2.2, 2.2);
-            Sum("FC", "IT");
-        }
+        
     }
 }
