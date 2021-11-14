@@ -20,14 +20,7 @@ namespace ConsoleApp1
             int sum = num1 + num1;
             Console.WriteLine($"the sum of itself {num1} is: {sum}");
         }
-        static void  Sum(int a,int b)
-        {
-             Console.WriteLine($"the sum of two integers  is: {a+b}");
-        }
-        static void Sum(float a, float b)
-        {
-            Console.WriteLine($"the sum of two float numbers  is: {a + b}");
-        }
+        
         static void Sum(double a, double b)
         {
             Console.WriteLine($"the sum of two double numbers  is: {a + b}");
