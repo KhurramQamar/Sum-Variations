@@ -28,7 +28,10 @@ namespace ConsoleApp1
         {
             Console.WriteLine($"the sum of two float numbers  is: {a + b}");
         }
-        
+        static void Sum(double a, double b)
+        {
+            Console.WriteLine($"the sum of two double numbers  is: {a + b}");
+        }
         static void Sum(string  a, string  b)
         {
             Console.WriteLine($"the sum of two string is: {a + b}");
