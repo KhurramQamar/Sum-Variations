@@ -34,7 +34,7 @@ namespace ConsoleApp1
         }
         static void Sum(string  a, string  b)
         {
-            Console.WriteLine($"the sum of two string is: {a + b}");
+            
         }
 
         static void Main(string[] args)
